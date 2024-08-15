@@ -159,7 +159,7 @@ class CarState(CarStateBase):
 
     if CP.transmissionType == TransmissionType.automatic:
       messages += [
-        ("PowertrainData_10", 10),
+        ("TransGearData", 10),
       ]
     elif CP.transmissionType == TransmissionType.manual:
       messages += [
