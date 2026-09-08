@@ -206,7 +206,6 @@ class CAR(Platforms):
     CarSpecs(mass=2050, wheelbase=3.025, steerRatio=19.33),
   )
 
-
 # FW response contains a combined software and part number
 # A-Z except no I, O or W
 # e.g. NZ6A-14C204-AAA
